@@ -35,11 +35,11 @@ Example Output :
 
 The results file (results_js.txt) will contain entries like the following:
 
-Potential vulnerabilities in js_files/api.js:
-api_key found: [('api_key', 'abc123xyz')]
-jwt_token found: ['eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9']
-insecure_http found: ['http://example.com']
-prototype_pollution found: ['.__proto__=']
+    Potential vulnerabilities in js_files/api.js:
+    api_key found: [('api_key', 'abc123xyz')]
+    jwt_token found: ['eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9']
+    insecure_http found: ['http://example.com']
+    prototype_pollution found: ['.__proto__=']
 
 No issues found in js_files/utility.js.
 
