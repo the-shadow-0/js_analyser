@@ -21,7 +21,7 @@ Setup
     Clone or Download the Script: Download the script and place it in your working directory.
     Prepare Your JavaScript Files: Place all JavaScript files you want to analyze in a folder named js_files in the same directory as the script.
 
-Usage
+Usage :
 
     Run the script from your terminal:
 
@@ -31,7 +31,7 @@ Usage
 
     Each JavaScript file analyzed will show any detected vulnerabilities, or it will note if no issues were found.
 
-Example Output
+Example Output :
 
 The results file (results_js.txt) will contain entries like the following:
 
